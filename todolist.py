@@ -9,7 +9,7 @@ def add_task():
         task_list.insert(tk.END, f"☐ {task}")
         task_entry.delete("1.0", tk.END)
     else:
-        messagebox.showwarning("Предупреждение", "Пожалуйста, введите задачу.")
+        messagebox.showwarning("Please,write your task")
 
 # Funkt. to mark done/not done in tasks
 def toggle_task_completion(event):
